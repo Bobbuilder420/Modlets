@@ -1,0 +1,42 @@
+<configs>
+
+<append xpath="/recipes">
+
+<!-- recipes for wrenchable car components -->
+	
+	<recipe name="resourceMechanicalParts" count="1" craft_area="workbench">
+		<ingredient name="resourceForgedSteel" count="1"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="1"/>
+		<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceElectricParts" count="1" craft_area="workbench">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="1"/>
+		<ingredient name="resourceOil" count="1"/>
+	</recipe>
+
+	<recipe name="resourceHeadlight" count="1" craft_area="workbench">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceBrokenGlass" count="1"/>
+		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceSpring" count="1" material_based="true" craft_area="forge">
+			<ingredient name="unit_iron" count="3"/>
+			<ingredient name="unit_clay" count="1"/>
+	</recipe>
+	
+	<recipe name="smallEngine" count="1" craft_area="workbench">
+		<ingredient name="resourceForgedSteel" count="5"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceSpring" count="5"/>
+		<ingredient name="resourceOil" count="2"/>
+	</recipe>
+	
+</append>
+
+</configs>
